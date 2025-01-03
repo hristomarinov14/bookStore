@@ -31,7 +31,7 @@ public class OrderItemService {
         return orderItemRepository.findAllByOrder_Id(orderId);
     }
 
-    public List<OrderItem> findAllByProductId(Long productId) {
+    public List<OrderItem> findAllByBookId(Long productId) {
         return orderItemRepository.findAllByProduct_Id(productId);
     }
 
